@@ -1,13 +1,13 @@
-Escolha = str(input('Você quer converter para Celsius ou Farenheit? '))
-if Escolha == ('Celsius'):
-    valor = input('Valor: ')
-    if float(valor) >= 0:
-        print(float(valor) * 1.8 + 32)
+Choose = str(input('Você quer converter para Celsius ou Farenheit? '))
+if Choose == ('Celsius'):
+    Value = input('Value: ')
+    if float(Value) >= 0:
+        print(float(Value) * 1.8 + 32)
 
-if Escolha == ('Farenheit'):
-    valor = input('Valor: ')
-    if float(valor) >= 0:
-        print((float(valor) - 32) / 1.8)
+if Choose == ('Farenheit'):
+    Value2 = input('Valor: ')
+    if float(Value2) >= 0:
+        print((float(Value2) - 32) / 1.8)
 
 
 
